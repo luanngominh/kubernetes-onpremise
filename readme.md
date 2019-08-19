@@ -1,6 +1,6 @@
 # Kubernetes On Premise
 In this document, I am going to talk about how to install kubernetes on premise, this is a way my team at VNG use to deployment our system. But It will have a litte diffence, such at in this document it just one master node!
-# Prerequsite
+# Prerequisite
 * `vagrant` is installed: https://www.vagrantup.com/
 * `vagrant-disksize` plugin: vagrant plugin install vagrant-disksize
 
