@@ -98,3 +98,6 @@ Note: If above command pause a long time at "Running pre-flight checks" you shou
 
 # This is result 
 ![alt](src/result.png)
+
+# Todo
+😻 Vagrant provision by ansible
