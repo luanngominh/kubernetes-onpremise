@@ -72,6 +72,12 @@ KUBELET_EXTRA_ARGS=--runtime-cgroups=/systemd/system.slice --kubelet-cgroups=/sy
 sudo kubeadm init --apiserver-advertise-address 192.168.20.11 --pod-network-cidr 10.3.0.0/16
 ```
 
+* Copy kubernetes admin config
+```shell
+mkdir -p ~/.kube
+sudo /etc/kubernetes/admin.conf ~/.kube/config
+```
+
 * Install network plugin
 ```shell
 kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml
