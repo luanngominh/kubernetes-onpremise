@@ -1,5 +1,5 @@
 IMAGE_NAME = "centos/7"
-N = 3
+N = 0
 
 Vagrant.configure("2") do |config|
  
@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
     master.vm.hostname = "node01.k8s"
     config.disksize.size = "40GB"
     config.vm.provider "virtualbox" do |config|
-      config.memory = 2048
+      config.memory = 4096
       config.cpus = 2
     end
   end

@@ -75,7 +75,7 @@ sudo kubeadm init --apiserver-advertise-address 192.168.20.11 --pod-network-cidr
 * Copy kubernetes admin config
 ```shell
 mkdir -p ~/.kube
-sudo /etc/kubernetes/admin.conf ~/.kube/config
+sudo cp /etc/kubernetes/admin.conf ~/.kube/config
 ```
 
 * Install network plugin
